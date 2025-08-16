@@ -3,7 +3,7 @@ import os
 import joblib
 
 # Allowed moods for the emotion detector
-ALLOWED = {"happy","sad","neutral","angry"}
+ALLOWED = {"happy","sad","neutral","angry","fear","surprise","disgust"}
 
 def main():
     # Check if songs.csv exist
